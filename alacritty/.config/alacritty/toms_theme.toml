@@ -1,0 +1,35 @@
+# Colors (Toms Theme)
+[colors]
+
+# Default Colors
+[colors.primary]
+background = "#000000"
+foreground = "#FFFFFF"
+dim_foreground = "#C6C6C4"
+bright_foreground = "#FFFFFF"
+
+[colors.cursor]
+text	= "#000000"
+cursor	= "#D323DE"
+
+# Normal Colors
+[colors.normal]
+black 	= "#10100E"
+red 	= "#DE2323"
+green 	= "#23DE56"
+yellow	= "#DEC523"
+blue	= "#0087BD"
+magenta	= "#D323DE"
+cyan	= "#23D0DE"
+white	= "#C6C6C4"
+
+# Bright Colors
+[colors.bright]
+black	= "#696969"
+red	= "#FF2400"
+green	= "#03C03C"
+yellow	= "#FDFF00"
+blue	= "#007FFF"
+magenta	= "#FF1493"
+cyan	= "#00CCCC"
+white	= "#FFFAFA"
