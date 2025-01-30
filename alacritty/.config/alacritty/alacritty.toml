@@ -23,3 +23,9 @@ style = "Italic"
 [font.normal]
 family = "BlexMono Nerd Font Mono"
 style = "Regular"
+
+# Key Bindings added 2025-01-23
+# Seems to work without explicity adding keybindings into alacritty config. I have commented them here for referance, but they might need to be properly configured if issues in the future.
+#
+# Copy: Ctrl + Shft + c
+# Copy: Ctrl + Shft + v
