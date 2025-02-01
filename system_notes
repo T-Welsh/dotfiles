@@ -1,0 +1,54 @@
+# System Notes
+
+## Todo
+- Config Rofi
+- Round out toms-theme starting point is in the polbar config. (print_colors is useful)
+- Add Colors and Themewindow style to i3 config (https://youtu.be/wXZgUudR41I?list=PLsz00TDipIffGKMW4hmzmwXTvARXyJMn8&t=1555)
+
+## Changelog
+
+### 2025-02-01
+- Installed hyprland
+
+### 2025-01-31
+- Installed fzf
+
+### 2025-01-30
+- Installed starship
+### 2025-01-28
+- Installed tmux
+
+### 2025-01-25
+- Issue: Encountered 404 errors when updating packages via pacman.
+  Solution: Ran sudo pacman -Syyuu to force a full refresh of the package databases and synchronize package versions, resolving the issue. 
+- Installed rofi
+
+### 2025-01-23
+- Installed xclip
+
+### 2025-01-21
+- Installed polybar
+- Installed feh
+
+### 2025-01-20
+- Installed tree
+
+### 2025-01-19
+- Installed Network-Manager-Applet (nm-applet)
+- Installed KDE Wallet (kwalletmanager)
+
+### 2025-01-18
+- Installed Blex Nerd Font.
+- Installed Picom.
+- Installed Stow.
+
+### 2025-01-17
+- Installed i3 Window Manager.
+- Installed NetworkManager.
+- Installed NeoVim.
+
+### 2025-01-16
+- Installed Arch Linux onto device.
+- Installed KDE Plasma desktop enviroment.
+- Installed Alacritty.
+- Installed Brave Browser.
