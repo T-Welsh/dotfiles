@@ -84,6 +84,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
 
 # User configuration
 
@@ -113,6 +115,20 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vi='nvim'
+alias vim='nvim'
+alias fvi='nvim $(fzf -m --preview="bat --color=always {}")'
+
+# Force rm ** into interactive mode to prevent accidental deletion
+rm() {
+  # If the command contains "**", force interactive mode
+  if [[ "$*" == ** ]]; then
+    command rm -i "$@"
+  else
+    command rm "$@"
+  fi
+}
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
