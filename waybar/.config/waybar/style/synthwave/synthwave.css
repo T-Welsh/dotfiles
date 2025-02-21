@@ -1,0 +1,31 @@
+
+@define-color base   #000000;  /* Black background */
+@define-color mantle #000000;  /* Deep black for consistency */
+@define-color crust  #000000;  /* Keeps it dark and synthwave-accurate */
+
+@define-color text     #dad9c7; /* Beige foreground for high readability */
+@define-color subtext0 #b3b1a6; /* Slightly muted foreground */
+@define-color subtext1 #c8c5b2; /* Lightened muted text */
+
+@define-color surface0 #2186ec; /* Bright blue (highlights) */
+@define-color surface1 #12c3e2; /* Electric cyan */
+@define-color surface2 #19cde6; /* Glow effect */
+
+@define-color overlay0 #f6188f; /* Neon pink */
+@define-color overlay1 #f841a0; /* Brighter pink */
+@define-color overlay2 #f97137; /* Fiery orange */
+
+@define-color blue      #2186ec; /* Electric blue */
+@define-color lavender  #2f9ded; /* Soft neon blue */
+@define-color sapphire  #12c3e2; /* Cyber cyan */
+@define-color sky       #19cde6; /* Bright synthwave cyan */
+@define-color teal      #12c3e2; /* Deep neon teal */
+@define-color green     #1ebb2b; /* Bright neon green */
+@define-color yellow    #fdf834; /* Neon yellow */
+@define-color peach     #f85a21; /* Fiery orange */
+@define-color maroon    #f841a0; /* Synthwave pink-red */
+@define-color red       #f85a21; /* Strong warning red */
+@define-color mauve     #f6188f; /* Deep neon pink */
+@define-color pink      #f841a0; /* Vibrant pink */
+@define-color flamingo  #f97137; /* Soft orange */
+@define-color rosewater #fdf454; /* Neon soft yellow */

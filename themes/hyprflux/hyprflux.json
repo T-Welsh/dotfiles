@@ -1,0 +1,48 @@
+
+{
+    "name": "HyprFlux",
+    "description": "A synthwave-inspired theme with neon aesthetics and a dark cyberpunk base.",
+
+    "colors": {
+        "base": "#000000",
+        "mantle": "#000000",
+        "crust": "#000000",
+
+        "text": "#dad9c7",
+        "subtext0": "#b3b1a6",
+        "subtext1": "#c8c5b2",
+
+        "surface0": "#2186ec",
+        "surface1": "#12c3e2",
+        "surface2": "#19cde6",
+
+        "overlay0": "#f6188f",
+        "overlay1": "#f841a0",
+        "overlay2": "#f97137",
+
+        "neon_blue": "#2186ec",
+        "electric_lavender": "#2f9ded",
+        "cyber_sapphire": "#12c3e2",
+        "neon_cyan": "#19cde6",
+        "techno_teal": "#12c3e2",
+        "hologram_green": "#1ebb2b",
+        "laser_yellow": "#fdf834",
+        "burnt_orange": "#f85a21",
+        "hot_pink": "#f841a0",
+        "warning_red": "#f85a21",
+        "vaporwave_mauve": "#f6188f",
+        "retro_pink": "#f841a0",
+        "sunset_orange": "#f97137",
+        "glow_yellow": "#fdf454"
+    },
+
+    "cursor": {
+        "color": "#19cde6",
+        "text": "#dad9c7"
+    },
+
+    "selection": {
+        "background": "#19cde6",
+        "foreground": "#000000"
+    }
+}

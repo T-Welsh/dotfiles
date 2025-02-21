@@ -14,7 +14,9 @@ font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 padding: 1px;
 }
 
-@import "../waybar/style/catppuccin-themes/mocha.css";
+/*@import "../waybar/style/catppuccin-themes/mocha.css";*/
+/*@import "../waybar/style/synthwave/synthwave.css";*/
+@import "../waybar/style/hyprflux/hyprflux.css";
 
 window#waybar {
   transition-property: background-color;
@@ -35,7 +37,8 @@ window#waybar.hidden {
 
 /* This section can be use if you want to separate waybar modules */
 .modules-left, .modules-center, .modules-right {
-	background: #000000; 
+	/*background: #000000; */
+	background: @base; 
  	border: 0px solid @overlay0;
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -46,7 +49,7 @@ window#waybar.hidden {
 } 
 
 .modules-left, .modules-right {
-  	border: 0px solid @blue;
+  	border: 0px solid @neon_blue;
 	padding-top: 1px;
 	padding-bottom: 1px;
 	padding-right: 4px;
@@ -104,16 +107,16 @@ window#waybar.hidden {
 }
 
 #idle_inhibitor {
-  color: @blue;
+  color: @neon_blue;
 }
 
 #bluetooth,
 #backlight {
-  color: @blue;
+  color: @neon_blue;
 }
 
 #battery {
-  color: @green;
+  color: @hologram_green;
 }
 
 @keyframes blink {
@@ -123,7 +126,7 @@ window#waybar.hidden {
 }
 
 #battery.critical:not(.charging) {
-  background-color: @red;
+  background-color: @warning_red;
   color: @theme_text_color;
   animation-name: blink;
   animation-duration: 0.5s;
@@ -138,24 +141,24 @@ window#waybar.hidden {
 }
 
 #cpu {
-  color: @green;
+  color: @hologram_green;
 }
 
 #custom-keyboard,
 #memory {
-  color: @sky;
+  color: @neon_cyan;
 }
 
 #disk {
-  color: @sapphire;
+  color: @electric_sapphire;
 }
 
 #temperature {
-  color: @teal;
+  color: @techno_teal;
 }
 
 #temperature.critical {
-  background-color: @red;
+  background-color: @warning_red;
 }
 
 #tray > .passive {
@@ -166,7 +169,7 @@ window#waybar.hidden {
 }
 
 #keyboard-state {
-  color: @flamingo;
+  color: @sunset_orange;
 }
 
 #workspaces button {
@@ -196,7 +199,7 @@ window#waybar.hidden {
 }
 
 #workspaces button.active {
-	color: @teal;
+	color: @techno_teal;
   	border-radius: 10px;
     padding-left: 8px;
     padding-right: 8px;
@@ -205,7 +208,7 @@ window#waybar.hidden {
 }
 
 #workspaces button.urgent {
-	color: @red;
+	color: @warning_red;
  	border-radius: 0px;
 }
 
@@ -224,54 +227,54 @@ window#waybar.hidden {
 }
 
 #custom-cava_mviz {
-	color: @pink;
+	color: @hot_pink;
 }
 
 #custom-menu {
-  color: @teal;
+  color: @techno_teal;
 }
 
 #custom-power {
-  color: @red;
+  color: @warning_red;
 }
 
 #custom-updater {
-  color: @red;
+  color: @warning_red;
 }
 
 #custom-light_dark {
-  color: @blue;
+  color: @neon_blue;
 }
 
 #custom-weather {
-  color: @lavender;
+  color: @electric_lavender;
 }
 
 #custom-lock {
-  color: @maroon;
+  color: @hot_pink;
 }
 
 #pulseaudio {
-  color: @green;
+  color: @hologram_green;
 }
 
 #pulseaudio.bluetooth {
-  color: @pink;
+  color: @hot_pink;
 }
 #pulseaudio.muted {
-  color: @red;
+  color: @warning_red;
 }
 
 #window {
-  color: @mauve;
+  color: @vaporwave_mauve;
 }
 
 #custom-waybar-mpris {
-  color:@lavender;
+  color:@electric_lavender;
 }
 
 #network {
-  color: @teal;
+  color: @techno_teal;
 }
 #network.disconnected,
 #network.disabled {
